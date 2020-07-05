@@ -16,7 +16,7 @@
 */
 
 
-fetch('https://mystifying-galileo-3ae747.netlify.app/run_results.json')
+fetch('run_results.json')
 .then(res => res.json())
 .then((json) => {
   
